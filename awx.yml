@@ -1,6 +1,7 @@
 ---
 - name: My First Playbook
-  hosts: all
+  hosts: localhost
+  connection: local
   tasks:
     - name: Print a message
       debug:
